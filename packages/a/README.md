@@ -1,0 +1,1 @@
+https://micronfrontend-monorepo-a.netlify.app/
