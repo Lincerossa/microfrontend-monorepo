@@ -1,6 +1,6 @@
 {
-  "name": "a",
-  "version": "0.1.0",
+  "name": "@microfrontend-monorepo/a",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -12,10 +12,13 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "clean": "rm -rf node_modules/ && rm -rf package-lock.json",
+    "transpile": "babel --root-mode upward src -d dist --presets minify",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "webpack": "webpack --config webpack.prod.js"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": false
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  ]
+}

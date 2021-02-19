@@ -1,19 +1,19 @@
 {
-  "name": "@microfrontend-monorepo/b",
-  "version": "1.0.0",
+  "name": "container",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@microfrontend-monorepo/a": "^1.0.0",
+    "@microfrontend-monorepo/b": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "clean": "rm -rf node_modules/ && rm -rf package-lock.json",
-    "transpile": "babel --root-mode upward src -d dist --presets minify",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
