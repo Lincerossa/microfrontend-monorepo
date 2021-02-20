@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App-wrapper {
+  border: 1px dotted #62dafb;
+  padding:2rem;
+}
+h1 {
+  color: #62dafb;
+}

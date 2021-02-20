@@ -1,9 +1,10 @@
 
 import React from 'react'
+import Routes from './routes'
 
-function App() {
+function App({basename}) {
   return (
-    <div>App B</div>
+    <Routes basename={basename} />
   );
 }
 

@@ -1,8 +1,11 @@
+
 import React from 'react'
-function App() {
+import Routes from './routes'
+
+function App({basename}) {
   return (
-    <div> App a</div>
+    <Routes basename={basename} />
   );
 }
 
-export default App;
+export default App
